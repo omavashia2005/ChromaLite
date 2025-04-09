@@ -49,9 +49,3 @@
 
 - Add rhythmic diversity, chords, and velocity variation
 - Train on polyphonic samples
-
----
-
-## 📜 License
-
-MIT License — feel free to fork, star, and experiment 🎶
