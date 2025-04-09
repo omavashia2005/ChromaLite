@@ -41,8 +41,9 @@
 
 | Epoch | Train Accuracy | Test Accuracy |
 |-------|----------------|---------------|
-| 5     | 93.5%          | 99.4%         |
+| 8     | 97.2%          | 81.39%         |
 
+- Also need to address randomization in `Scales()` dataset generator class
 ---
 
 ## 🔭 Future Work
