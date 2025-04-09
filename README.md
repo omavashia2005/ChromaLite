@@ -35,23 +35,6 @@
 
 - `Python`, `PyTorch`, `NumPy`, `pandas`  
 - `music21`, `librosa`, `matplotlib`, `soundfile`, `FluidSynth`
-
----
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/chromalite
-cd chromalite
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the generator and train the model
-python train_model.py
-```
-
 ---
 
 ## 📈 Results (⚠️ Currently investigating overfitting — next steps include improving dataset realism.)
