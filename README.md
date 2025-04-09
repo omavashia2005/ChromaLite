@@ -1,1 +1,1 @@
-# Musical-Scale-Classification
+# ChromaLite: Musical-Scale-Classification
