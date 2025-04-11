@@ -37,13 +37,12 @@
 - `music21`, `librosa`, `matplotlib`, `soundfile`, `FluidSynth`
 ---
 
-## 📈 Results (⚠️ Currently investigating overfitting — next steps include improving dataset realism.)
+## 📈 Results 
 
-| Epoch | Train Accuracy | Test Accuracy |
-|-------|----------------|---------------|
-| 8     | 97.2%          | 81.39%         |
+| Train Accuracy | Test Accuracy |
+|----------------|---------------|
+| 97.2%          | 81.39%         |
 
-- Also need to address randomization in `Scales()` dataset generator class
 ---
 
 ## 🔭 Future Work
