@@ -1,6 +1,6 @@
-# 🎵 ChromaLite: Convolutional Neural Network-based Musical Scale Classifier
+# 🎵 ChromaLite: Neural Network-based Musical Scale Classifier
  
-**ChromaLite** is a deep learning pipeline for predicting Western musical scales from audio using chromagrams. It includes a custom dataset generator, chroma feature extraction, and a lightweight convolutional neural network (CNN) built with PyTorch.
+**ChromaLite** is a machine learning pipeline for predicting Western musical scales from audio using chromagrams. It includes a custom dataset generator, chroma feature extraction, and a simple neural network built with PyTorch.
 
 > _Think of it as “Shazam for scale detection” — trained on music theory._
 
@@ -11,15 +11,11 @@
 - 🔧 **Synthetic Dataset Generator**  
   Generates labeled chroma tensors for 24 Western scales using `music21`, `librosa`, and MIDI-to-audio synthesis.
 
-- 🎼 **7,200+ Samples Across 24 Scales**  
+- 🎼 **1,900+ Samples Across 24 Scales**  
   Each sample contains randomized notes in a specific scale, saved as chroma tensors and scale indices.
 
-- 🧠 **Custom CNN Model (ChromaLite)**  
-  A lightweight PyTorch-based CNN that learns to classify musical scales from `[1, 12, T]` chroma inputs.
-
-- 🔁 **Currently Improving Generalization**  
-  Exploring dataset enhancements with rhythmic variation, rests, polyphony, and mixed octaves.
-
+- 🧠 **Custom Neural Network Model (ChromaLite)**  
+  A simple PyTorch-based neural network that learns to classify musical scales from `[1, 12, T]` chroma inputs.
 ---
 
 ## 🔬 Dataset Overview
@@ -41,11 +37,12 @@
 
 | Train Accuracy | Test Accuracy |
 |----------------|---------------|
-| 97.2%          | 81.39%         |
+| 79.1%          | 78.28%         |
 
 ---
 
 ## 🔭 Future Work
 
 - Add rhythmic diversity, chords, and velocity variation
-- Train on polyphonic samples
+- Generate more unique samples
+- Build more models
