@@ -29,8 +29,17 @@
 
 ## 🛠️ Tech Stack
 
-- `Python`, `PyTorch`, `NumPy`, `pandas`  
-- `music21`, `librosa`, `matplotlib`, `soundfile`, `FluidSynth`
+
+<p float="left">
+  <img src="https://pytorch.org/assets/images/pytorch-logo.png" height="60" alt="PyTorch Logo" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" height="60" alt="NumPy" />
+  <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" height="60" alt="pandas Logo" />
+  <img src="https://matplotlib.org/_static/images/logo2.svg" height="60" alt="Matplotlib Logo" />
+</p>
+
+
+Music and Audio: `Librosa, music21, FluidSynth`
+
 ---
 
 ## 📈 Results 
