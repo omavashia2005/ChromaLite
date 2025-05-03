@@ -2,7 +2,22 @@
  
 **ChromaLite** is a machine learning pipeline for predicting Western musical scales from audio using chromagrams. It includes a custom dataset generator, chroma feature extraction, and a simple neural network built with PyTorch.
 
-> _Think of it as “Shazam for scale detection” — trained on music theory._
+> _Think of it as the underlying system for a “Shazam for scale detection” — trained on music theory data._
+
+---
+
+## 🛠️ Tech Stack
+
+
+<p float="left">
+  <img src="https://pytorch.org/assets/images/pytorch-logo.png" height="60" alt="PyTorch Logo" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" height="60" alt="NumPy" />
+  <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" height="60" alt="pandas Logo" />
+  <img src="https://matplotlib.org/_static/images/logo2.svg" height="60" alt="Matplotlib Logo" />
+</p>
+
+
+Music and Audio: `Librosa, music21, FluidSynth`
 
 ---
 
@@ -25,20 +40,6 @@
 - **Format:** `.pt` and `.csv` versions provided
 - [👉 View Dataset on Kaggle](https://www.kaggle.com/datasets/omavashia/synthetic-scale-chromagraph-tensor-dataset)
 
----
-
-## 🛠️ Tech Stack
-
-
-<p float="left">
-  <img src="https://pytorch.org/assets/images/pytorch-logo.png" height="60" alt="PyTorch Logo" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" height="60" alt="NumPy" />
-  <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" height="60" alt="pandas Logo" />
-  <img src="https://matplotlib.org/_static/images/logo2.svg" height="60" alt="Matplotlib Logo" />
-</p>
-
-
-Music and Audio: `Librosa, music21, FluidSynth`
 
 ---
 
